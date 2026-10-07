@@ -1,0 +1,15 @@
+{
+  "name": "pfss-payroll-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PFSS payroll on Netlify: static pages, one Netlify Function, Netlify Database (Postgres).",
+  "scripts": {
+    "local": "node test/local-server.mjs",
+    "test": "node test/api.test.mjs"
+  },
+  "engines": { "node": ">=20.12.2" },
+  "dependencies": {
+    "@netlify/database": "latest"
+  }
+}
